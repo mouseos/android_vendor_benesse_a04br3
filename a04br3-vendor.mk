@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service \
     vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
     vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.health@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service \
-    vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service.mtee:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.mtee \
     vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
     vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/benesse/a04br3/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn \
@@ -203,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@2.0-service.rc \
     vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
     vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.health@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.rc \
-    vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.mtee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.mtee.rc \
     vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
     vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/benesse/a04br3/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc \
@@ -853,8 +851,6 @@ PRODUCT_COPY_FILES += \
     vendor/benesse/a04br3/proprietary/vendor/lib64/libispfeaturem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispfeaturem.so \
     vendor/benesse/a04br3/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
     vendor/benesse/a04br3/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
-    vendor/benesse/a04br3/proprietary/vendor/lib64/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4.so \
-    vendor/benesse/a04br3/proprietary/vendor/lib64/libkeymaster4support.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4support.so \
     vendor/benesse/a04br3/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
     vendor/benesse/a04br3/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/benesse/a04br3/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
