@@ -84,7 +84,11 @@ Only the three quirks included above are recognized at this point:
         </MediaCodec>
 
         <MediaCodec name="OMX.MTK.AUDIO.DECODER.MP2" >
-            <Type name="audio/mpeg-L2" />
+            <!-- Explicit stereo capability also avoids an empty channel range
+                 for this vendor MIME type in newer framework codec lists. -->
+            <Type name="audio/mpeg-L2">
+                <Limit name="channel-count" max="2" />
+            </Type>
             <Quirk name="decoder-lies-about-number-of-channels" />
             <Quirk name="supports-multiple-frames-per-input-buffer" />
         </MediaCodec>
